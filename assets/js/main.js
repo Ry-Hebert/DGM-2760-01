@@ -7,6 +7,4 @@ myFunction = () =>
     position1.textContent="Joe's Beach side Bed & Breakfast"
 
     let userName = prompt('What is your name?')
-
-    return 0;
 }
