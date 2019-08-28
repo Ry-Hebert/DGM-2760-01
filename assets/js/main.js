@@ -10,7 +10,17 @@ myFunction = () =>
 
     position2.textContent="Life can be a beach, so take some time to relax."
 
-    position3.textContent="Life can be a beach, so take some time to relax."
-
     let userName = prompt("Joe's Beachside Bed & Breakfast would like to know: /br What is your name?")
+
+    if(`${userName}` == 'null' || userName == '')
+    {
+        position3.textContent=`Welcome to paradise!`
+    }
+    else
+    {
+        position3.textContent=`Welcome to paradise ${userName}!`
+    }
+
+    var d = new Date();
+    document.getElementById("copyright").textContent += `${d.toDateString()}`
 }
