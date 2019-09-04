@@ -7,7 +7,7 @@ margin: 0px;
 
 #header-sec
 {
-    background-image: url(assets/img/islandB&B.jpeg);
+    background-image: url(/assets/img/islandB&B.jpeg);
     height: 75vh;
     width: 100%;
     background-repeat: no-repeat;

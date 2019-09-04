@@ -10,7 +10,7 @@ myFunction = () =>
 
     position2.textContent="Life can be a beach, so take some time to relax."
 
-    let userName = prompt("Joe's Beachside Bed & Breakfast would like to know: /br What is your name?")
+    let userName = prompt("Joe's Beachside Bed & Breakfast would like to know: \n What is your name?")
 
     if(`${userName}` == 'null' || userName == '')
     {
