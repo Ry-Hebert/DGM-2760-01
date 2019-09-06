@@ -53,7 +53,11 @@ margin: 0px;
 .content_item
 {
     width: 100%;
-    margin: 0px 5vw 0px 5vw;
+}
+
+.content_item_inside
+{
+    padding: 0px 5vw 0px 5vw;
 }
 
 ul
