@@ -16,6 +16,8 @@ margin: 0px;
     overflow: hidden;
 }
 
+@media (min-width: 961px)
+{
 .hero_ban
 {
     width: 620pt;
@@ -25,6 +27,21 @@ margin: 0px;
     border-radius: .5rem;
     font-size: 2rem;
     padding: 1rem;
+}
+}
+
+@media (max-width: 960px)
+{
+    .hero_ban
+    {
+    max-width: 90%;
+    background-color: #ffffffa0;
+    z-index: 5;
+    margin: 5vw;
+    border-radius: .5rem;
+    font-size: 2rem;
+    padding: 1rem;
+    }
 }
 
 .hero_ban h1
@@ -52,12 +69,7 @@ margin: 0px;
 
 .content_item
 {
-    width: 100%;
-}
-
-.content_item_inside
-{
-    padding: 0px 5vw 0px 5vw;
+    margin: 0px 5vw 0px 5vw;
 }
 
 ul
